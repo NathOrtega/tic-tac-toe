@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.header {
+  margin: 100px auto 50px;
+  width: fit-content;
+  color: slategrey;
+  font-size: larger;
+  font-family: 'Volkhov', serif;
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  margin: 10px;
+}
+
+#playerEmoji {
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  background-color: #860701;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  outline: none;
+  background-color: black;
+  border: none;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  background-image: url(./Resources/kisspng-mileena-scorpion-costume-mortal-kombat-t-shirt-scorpion-spear-5b55a68ca64179.717186231532339852681.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-top: 100px;
+}
